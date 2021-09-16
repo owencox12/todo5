@@ -1,0 +1,15 @@
+.search-panel {
+    display: flex;
+    margin-top: 20px;
+}
+.search-panel-input:focus {
+    border: 2px solid skyblue;
+    border-radius: 5px;
+    transition: all .2s;
+}
+.search-panel-input {
+    outline: none;
+    padding-left: 5px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    margin-right: 5px;
+}

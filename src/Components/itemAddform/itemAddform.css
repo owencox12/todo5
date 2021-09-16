@@ -1,0 +1,31 @@
+.todolist_new {
+    width: 150px;
+    height: 30px;
+    outline: none;
+    
+}
+.todolist_new:focus {
+    border: 2px solid skyblue;
+}
+.form {
+    margin-top: 10px;
+}
+.todolist_new_button {
+    border: none;
+    min-width: 100px;
+    min-height: 30px;
+    background: none;
+    border: 1px solid rgba(0, 0, 0, .3);
+    margin-left: 10px;
+    transition: all .2s;
+
+}
+.todolist_new_button:hover {
+    background: rgb(158, 203, 240);
+}
+.form_valid {
+    display: none;
+}
+.active {
+    display: block;
+}

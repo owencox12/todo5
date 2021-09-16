@@ -1,0 +1,25 @@
+.todo-list{
+    display: flex;
+    justify-content: space-between;
+}
+.todo-list-button {
+    margin: 0 5px;
+    background: none;
+    width: 30px;
+    height: 30px;
+}
+.todo-list-button-trash {
+    border: 1px solid red;
+}
+.todo-list-button-trash i {
+    color: red;
+}
+.todo-list-button-exclamation {
+    border: 1px solid green;
+}
+.todo-list-button-exclamation i {
+    color: green;
+}
+.done {
+    text-decoration: line-through;
+}
